@@ -4,12 +4,12 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _Neo4JProject = require('./Neo4JProject');
+var _BabelParse = require('./BabelParse');
 
-Object.defineProperty(exports, 'graph', {
+Object.defineProperty(exports, 'parser', {
   enumerable: true,
   get: function get() {
-    return _Neo4JProject.graph;
+    return _BabelParse.parser;
   }
 });
 

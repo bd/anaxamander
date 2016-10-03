@@ -1,1 +1,1 @@
-export CONNECTION_STRING from './development';
+export  * from './development';
