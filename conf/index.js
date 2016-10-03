@@ -1,0 +1,1 @@
+export CONNECTION_STRING from './development';

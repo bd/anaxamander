@@ -1,0 +1,1 @@
+{"version":3,"sources":["development.js"],"names":[],"mappings":";;;;;AAAO,IAAM,sFAAN","file":"development-compiled.js","sourcesContent":["export const CONNECTION_STRING = `http://username:password@domain:port`;"]}

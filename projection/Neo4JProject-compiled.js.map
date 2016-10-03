@@ -1,0 +1,1 @@
+{"version":3,"sources":["Neo4JProject.js"],"names":[],"mappings":";;;;;;;AAAA;;IAAa,K;;AACb;;;;;;;;AAEO,IAAM,wBAAQ,IAAI,KAAJ,gBAAd","file":"Neo4JProject-compiled.js","sourcesContent":["import  * as neo4j  from 'node-neo4j';\nimport CONNECTION_STRING from '../conf';\n\nexport const graph = new neo4j(CONNECTION_STRING);"]}

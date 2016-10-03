@@ -1,0 +1,1 @@
+export const CONNECTION_STRING = `http://username:password@domain:port`;
