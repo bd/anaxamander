@@ -1,5 +1,7 @@
 'use strict';
 
+var _fs = require('fs');
+
 var _parser = require('./parser');
 
 var _minimist = require('minimist');
@@ -10,25 +12,26 @@ var _projection = require('./projection');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-/**
- * Entry point for application
- *
- * */
+var options = 'utf8'; /**
+                       * Entry point for application
+                       *
+                       * */
 
 // Read conf based on ENV
 //   select parser
-var options = {};
+
 var args = (0, _minimist2.default)(process.argv.slice(2));
 
 //   select projection
 
 
 var srcFile = args.src;
-
-console.log("Anaxamander to analyze", srcFile, "with projection:", _projection.graph, "and parser: Babel", _parser.parser.version, "");
+var code = (0, _fs.readFileSync)(srcFile, options);
+console.log("Anaxamander to analyze", srcFile, "with projection:", _projection.graph, "and parser: esdown");
 
 // parse
-var AST = _parser.parser.transformFileSync(srcFile, options);
+// const AST = parser.transformFileSync(srcFile, options);
+var AST = _parser.parser.parse(code);
 
 // project
 
