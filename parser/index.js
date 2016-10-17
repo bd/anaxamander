@@ -1,1 +1,1 @@
-export { parser } from './BabelParse';
+export { parser } from 'esprima';

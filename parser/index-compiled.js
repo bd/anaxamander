@@ -4,12 +4,12 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _BabelParse = require('./BabelParse');
+var _esprima = require('esprima');
 
 Object.defineProperty(exports, 'parser', {
   enumerable: true,
   get: function get() {
-    return _BabelParse.parser;
+    return _esprima.parser;
   }
 });
 
