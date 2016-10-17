@@ -10,7 +10,7 @@ import minimist from 'minimist';
 
 const options = 'utf8';
 const args = minimist(process.argv.slice(2));
-const parserName = args.parser;
+const parserName = args.parser || 'esprima';
 const parser = require(parserName);
 
 //   select projection
@@ -32,6 +32,7 @@ const syntaxOptions = {
 };
 const AST = parser.parse(code, syntaxOptions);
 console.log(AST);
+project(graph, AST);
 // project
 //    define visitor functions
 //    define visitor

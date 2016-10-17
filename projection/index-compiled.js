@@ -12,5 +12,11 @@ Object.defineProperty(exports, 'graph', {
     return _Neo4JProject.graph;
   }
 });
+Object.defineProperty(exports, 'project', {
+  enumerable: true,
+  get: function get() {
+    return _Neo4JProject.project;
+  }
+});
 
 //# sourceMappingURL=index-compiled.js.map

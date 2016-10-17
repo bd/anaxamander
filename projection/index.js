@@ -1,1 +1,1 @@
-export { graph } from './Neo4JProject';
+export { graph, project } from './Neo4JProject';

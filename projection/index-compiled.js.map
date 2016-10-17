@@ -1,1 +1,1 @@
-{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;;;;;;yBAAS,K","file":"index-compiled.js","sourcesContent":["export { graph } from './Neo4JProject';"]}
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;;;;;;yBAAS,K;;;;;;yBAAO,O","file":"index-compiled.js","sourcesContent":["export { graph, project } from './Neo4JProject';"]}
