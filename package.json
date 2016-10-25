@@ -13,10 +13,10 @@
   },
   "dependencies": {
     "babel-core": "^6.17.0",
-    "esdown": "^1.1.16",
     "esprima": "^3.1.0",
     "lodash": "^4.16.3",
     "minimist": "^1.2.0",
+    "neo4j": "^2.0.0-RC2",
     "node-neo4j": "^2.0.3"
   }
 }

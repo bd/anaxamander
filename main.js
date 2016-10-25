@@ -31,7 +31,7 @@ const syntaxOptions = {
     sourceType: 'module',
 };
 const AST = parser.parse(code, syntaxOptions);
-console.log(AST);
+
 project(graph, AST);
 // project
 //    define visitor functions
